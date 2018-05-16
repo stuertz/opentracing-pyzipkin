@@ -1,4 +1,4 @@
-from urllib import parse as urlparse
+from six.moves.urllib import parse as urlparse
 
 from opentracing_pyzipkin._opentracing import span as ot_span
 from opentracing_pyzipkin._opentracing import tracer as ot_tracer
